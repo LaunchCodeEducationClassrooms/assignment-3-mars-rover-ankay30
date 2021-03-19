@@ -18,5 +18,5 @@ describe("Command class", function() {
     let command = new Command('MOVE', 20);
     expect(command.value).toEqual(20);
   });
-
+  
 });
